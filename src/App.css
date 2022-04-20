@@ -1,0 +1,306 @@
+*{ margin: 0%; padding: 0%;}
+
+
+/* Home */
+/* Date and Time*/
+.clock{
+  color: white;
+  font-size: 40px;
+  text-align: right;
+}
+
+/* Header */
+.headerstyle{
+  overflow: auto;
+  padding: 5px;
+}
+
+/* Logo */
+.logostyle{
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+/* Navigation Bar */
+.navbarstyle{
+  width: 100%;
+  height: 100px;
+  background-color: wheat;
+}
+
+/* Navigation items */
+.navitems{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Item styles */
+.itemstyle {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+
+/* Link style */
+.effect:visited {
+  color: green;
+}
+.effect:hover {
+  color: black;
+}
+.effect:link {
+  color: brown;
+}
+.effect:active {
+  color: blueviolet;
+}
+
+/* Account */
+.Account {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.btn {
+  color: brown;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Options */
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Option styling */
+.acc {
+  padding: 12px 16px;
+  display: block;
+}
+
+/* Display options*/
+.Account:hover .content {display: block;}
+
+/* Slideshow caption */
+h5 {
+  color: wheat;
+  font-size: xx-large;
+}
+
+/* Footer */
+footer {
+  padding: 5rem 0;
+  background-color: wheat;
+  color: black;
+}
+
+/* Subscription Marketing */
+.Subscription {
+  color: black;
+  
+}
+/* Subscribe button */
+.Subscribebtn {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+/* Copyright style */
+.copyright {
+  color: black;
+}
+
+
+/* Challenge */
+/* Outer Div (image + text)*/
+.CDF {
+  overflow: auto;
+}
+
+/* CDF Image */
+.classification {
+  margin-top: 15%;
+  float: right;
+}
+
+/* Headings */
+.Heading {
+  padding-left: 0%;
+  color: burlywood;
+  font-size: 50px;
+}
+
+/* Content */
+.data {
+  padding-left: 1%;
+  color: white;
+  font-size: large;
+}
+
+/* Methods */
+.DFM {
+  padding-left: 5%;
+  font-size: 30px ;
+}
+
+
+/* Tools */
+.link1:hover {
+  color: yellowgreen;
+}
+.link1:active {
+  color: brown;
+}
+.link1:link {
+  color: whitesmoke;
+}
+.link1:visited {
+  color: peru;
+}
+.div1 {
+  margin-top: 5%;
+  margin-left: 30%;
+  float: left;
+  width: 25%;
+  color: white;
+}
+.div2 {
+  float: left;
+  margin-top: 5%;
+  color: white;
+}
+.outerdiv {
+  overflow: auto;
+}
+.HTool {
+  color: beige;
+  text-align: center;
+  margin-top: 5%;    
+
+}
+
+/* Reviews */
+/* Form Style */
+.Cform {
+  margin-left: 10%;
+  color: aliceblue;
+  border-style: double;
+  margin-right: 10%;
+}
+.outer {
+  overflow: auto;
+}
+.ldiv {
+  float: left;
+  width: 50%;
+}
+.rdiv {
+  float: left;
+}
+.Qs {
+  margin-left: 10%;
+}
+.fname {
+  margin-left: 5px;
+}
+.ibox {
+  margin-left: 10px;
+}
+.ebox {
+  margin-left: 45px;
+}
+/* Login Form */
+.formstyle {
+  margin-top: 15%;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  border-style: double;
+  border-color: azure;
+}
+.form-control {
+  margin-bottom: 20px;
+  background-color: seagreen;
+  border: none;
+  color: white;
+}
+.LLable {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 55px;
+  margin-top: 5px;
+}
+.Userinput {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /*    margin-bottom: 20px;*/
+  margin-left: 55px;
+}
+.error {
+  color: red;
+}
+.Lbtn {
+  margin-bottom: 10px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
